@@ -3,66 +3,88 @@
         "size": "galleryFull",
         "path": "20210521_SpringFleur.png",
         "name": "Spring Artist",
-        "date": "May 21, 2021"
+        "date": "May 21, 2021",
+        "width": 2048,
+        "height": 3640
     },
     {
         "size": "galleryFull",
         "path": "20210517_Saiga.png",
         "name": "Sinful Marksman",
-        "date": "May 17, 2021"
+        "date": "May 17, 2021",
+        "width": 3640,
+        "height": 2048
     },
     {
         "size": "galleryFull",
         "path": "20210514_SummerFleur.png",
         "name": "Summer Artist",
-        "date": "May 14, 2021"
+        "date": "May 14, 2021",
+        "width": 3640,
+        "height": 2048
     },
     {
         "size": "galleryFull",
         "path": "20210511_Yachiyo.png",
         "name": "Resplendent Duelist",
-        "date": "May 11, 2021"
+        "date": "May 11, 2021",
+        "width": 3640,
+        "height": 2048
     },
     {
         "size": "galleryHalf",
         "path": "20210509_MaidFleur.png",
         "name": "Maid Artist",
-        "date": "May 9, 2021"
+        "date": "May 9, 2021",
+        "width": 2048,
+        "height": 3640
     },
     {
         "size": "galleryHalf",
         "path": "20210508_Melody.png",
         "name": "Lovestruck Maid",
-        "date": "May 8, 2021"
+        "date": "May 8, 2021",
+        "width": 1536,
+        "height": 2048
     },
     {
         "size": "galleryHalf",
         "path": "20210502_Vania.png",
         "name": "Vampire Princess",
-        "date": "May 2, 2021"
+        "date": "May 2, 2021",
+        "width": 1152,
+        "height": 2048
     },
     {
         "size": "galleryHalf",
         "path": "20210501_Grimnir.png",
         "name": "The Mad Cyclone",
-        "date": "May 1, 2021"
+        "date": "May 1, 2021",
+        "width": 1152,
+        "height": 2048
     },
     {
         "size": "galleryHalf",
         "path": "20210424_Fleur.png",
         "name": "Budding Artist",
-        "date": "April 24, 2021"
+        "date": "April 24, 2021",
+        "width": 2048,
+        "height": 1536
     },
     {
         "size": "galleryFull",
         "path": "20210420_DragonDate.png",
         "name": "Date with a Dragon",
-        "date": "April 20, 2021"
+        "date": "April 20, 2021",
+        "width": 2048,
+        "height": 1536
     },
     {
         "size": "galleryFull",
         "path": "20210414_Mercury.png",
         "name": "Teacher of the Tides",
-        "date": "April 14, 2021"
+        "date": "April 14, 2021",
+        "width": 1536,
+        "height": 2048
     }
 ]

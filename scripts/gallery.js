@@ -23,17 +23,34 @@
 
     function populateImages(data) {
         let gallery = id("gallery");
-        data.forEach(art => {
-            let frame = generateImage(art);
+        for(let i = 0; i < 3 && i < data.length; i++) {
+            let art = data[i];
+            let frame = generateImage(art, false);
             gallery.appendChild(frame);
-        });
+        }
+        for(let i = 3; i < data.length; i++) {
+            let art = data[i];
+            let frame = generateImage(art, true);
+            gallery.appendChild(frame);
+        }
+        // data.forEach(art => {
+        //     let frame = generateImage(art);
+        //     gallery.appendChild(frame);
+        // });
+        setupLazyLoad();
     }
 
-    function generateImage(art) {
+    function generateImage(art, lazy) {
         let container = document.createElement("div");
         container.classList.add(art.size);
         let img = document.createElement("img");
-        img.src = `images/art/${art.path}`;
+        img.src = placeholderSrc(art.width, art.height);
+        if(lazy) {
+            img.dataset.src = `images/art/${art.path}`;
+            img.classList.add("lazy");
+        } else {
+            img.src = `images/art/${art.path}`;
+        }
         img.alt = art.name;
         img.addEventListener("click", openModal);
         let title = document.createElement("h2");
@@ -50,6 +67,29 @@
         return container;
     }
 
+    function setupLazyLoad() {
+        let lazyloadImages = document.querySelectorAll(".lazy");
+        if ("IntersectionObserver" in window) {
+            let observer = new IntersectionObserver(onIntersect);
+            lazyloadImages.forEach(image => {observer.observe(image);});
+        } else {
+            for(let i = 0; i < lazyloadImages.length; i++) {
+                lazyloadImages[i].src = image.dataset.src;
+            }
+        }
+    }
+
+    function onIntersect(entries, observer) {
+        entries.forEach( entry => {
+          if (entry.isIntersecting) {
+              let image = entry.target;
+              image.src = image.dataset.src;
+              image.classList.remove("lazy");
+              observer.unobserve(image);
+          }
+        });
+    }
+
     function openModal() {
         let modal = qs(".modal");
         let img = modal.querySelector("img");
@@ -64,5 +104,9 @@
         } else {
             throw Error("Error in request: " + response.statusText);
         }
+    }
+
+    function placeholderSrc(width, height) {
+        return `data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="${width}px" height="${height}px" viewBox="0 0 ${width} ${height}"%3E%3C/svg%3E`
     }
 })();
