@@ -1,6 +1,14 @@
 [
     {
-        "size": "galleryFull",
+        "size": "galleryHalf",
+        "path": "20210523_Pinon.png",
+        "name": "The Wing of Purity",
+        "date": "May 23, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "galleryHalf",
         "path": "20210521_SpringFleur.png",
         "name": "Spring Artist",
         "date": "May 21, 2021",
