@@ -1,5 +1,13 @@
 [
     {
+        "size": "galleryFull",
+        "path": "20210527_Apostles.png",
+        "name": "The Apostles of the Illian Church",
+        "date": "May 27, 2021",
+        "width": 3640,
+        "height": 2048
+    },
+    {
         "size": "galleryHalf",
         "path": "20210523_Pinon.png",
         "name": "The Wing of Purity",
