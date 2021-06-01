@@ -1,11 +1,27 @@
 [
     {
+        "size": "galleryHalf",
+        "path": "20210531_Sarisse.png",
+        "name": "Sylvan Sharpshooter",
+        "date": "May 31, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
         "size": "galleryFull",
         "path": "20210527_Apostles.png",
         "name": "The Apostles of the Illian Church",
         "date": "May 27, 2021",
         "width": 3640,
         "height": 2048
+    },
+    {
+        "size": "galleryHalf",
+        "path": "20210527_Mascula.png",
+        "name": "Pure Hearted Android",
+        "date": "May 27, 2021",
+        "width": 1536,
+        "height": 2730
     },
     {
         "size": "galleryHalf",
