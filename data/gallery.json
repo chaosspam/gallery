@@ -1,6 +1,14 @@
 [
     {
         "size": "galleryHalf",
+        "path": "20210605_Fleur.png",
+        "name": "Seaside 🍉",
+        "date": "June 5, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "galleryHalf",
         "path": "20210531_Sarisse.png",
         "name": "Sylvan Sharpshooter",
         "date": "May 31, 2021",
