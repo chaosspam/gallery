@@ -1,5 +1,29 @@
 [
     {
+        "size": "galleryFull",
+        "path": "20210618_Tobias.png",
+        "name": "Leave Your Back to Me",
+        "date": "June 18, 2021",
+        "width": 3640,
+        "height": 2048
+    },
+    {
+        "size": "galleryHalf",
+        "path": "20210612_Nino.png",
+        "name": "Pyroblossoms",
+        "date": "June 12, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "galleryHalf",
+        "path": "20210609_Isaac.png",
+        "name": "Guardsman of the Vendure",
+        "date": "June 9, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
         "size": "galleryHalf",
         "path": "20210605_Fleur.png",
         "name": "Seaside 🍉",
