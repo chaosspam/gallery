@@ -1,5 +1,29 @@
 [
     {
+        "size": "galleryHalf",
+        "path": "20210703_Mym.png",
+        "name": "Midsummer Temptress",
+        "date": "July 4, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "galleryHalf",
+        "path": "20210627_Sealers.png",
+        "name": "The Sealers",
+        "date": "June 27, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "galleryHalf",
+        "path": "20210622_Fleur.png",
+        "name": "1000 Days!",
+        "date": "June 22, 2021",
+        "width": 1536,
+        "height": 2048
+    },
+    {
         "size": "galleryFull",
         "path": "20210618_Tobias.png",
         "name": "Leave Your Back to Me",
