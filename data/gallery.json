@@ -1,6 +1,22 @@
 [
     {
         "size": "galleryHalf",
+        "path": "20210714_Mitsuhide.png",
+        "name": "Rat Girl Summer",
+        "date": "July 16, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "galleryFull",
+        "path": "20210711_Alex.png",
+        "name": "Summer Break",
+        "date": "July 11, 2021",
+        "width": 3640,
+        "height": 2048
+    },
+    {
+        "size": "galleryHalf",
         "path": "20210703_Mym.png",
         "name": "Midsummer Temptress",
         "date": "July 4, 2021",
