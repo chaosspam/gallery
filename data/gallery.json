@@ -1,5 +1,13 @@
 [
     {
+        "size": "galleryFull",
+        "path": "20210720_Fleur.png",
+        "name": "Summer Fleur",
+        "date": "July 20, 2021",
+        "width": 2048,
+        "height": 2048
+    },
+    {
         "size": "galleryHalf",
         "path": "20210714_Mitsuhide.png",
         "name": "Rat Girl Summer",
