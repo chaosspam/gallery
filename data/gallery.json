@@ -1,6 +1,38 @@
 [
     {
         "size": "galleryFull",
+        "path": "20211227_Fleur.png",
+        "name": "Winter Fleur",
+        "date": "December 27, 2021",
+        "width": 3640,
+        "height": 2048
+    },
+    {
+        "size": "galleryHalf",
+        "path": "20211108_Fleur.png",
+        "name": "Halloween Fleur",
+        "date": "November 8, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "galleryHalf",
+        "path": "20210927_Fleur.png",
+        "name": "3rd Anniversary Fleur",
+        "date": "September 27, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "galleryHalf",
+        "path": "20210802_Luce.png",
+        "name": "Luce",
+        "date": "August 2, 2021",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "galleryHalf",
         "path": "20210720_Fleur.png",
         "name": "Summer Fleur",
         "date": "July 20, 2021",
