@@ -3,8 +3,6 @@
     (•ㅅ•)
 */
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
 /*General Styling*/
 :root {
   --light: #eee;
@@ -17,19 +15,21 @@ body.dark {
 }
 
 body {
-  padding: 0 5%;
+  padding: 0 1.5rem;
   background-color: var(--light);
   font-family: 'Noto Serif', serif;
   color: var(--dark);
 }
 
 h1 {
-  font-size: 8em;
+  font-size: 5em;
   margin: 0;
 }
 
 header {
-  padding: 5%;
+  padding: 2rem 0;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 header p {
@@ -65,6 +65,7 @@ a:visited {
 .button-container {
   display: flex;
   align-items: center;
+  margin: 1.5rem 0 1.5rem -10px;
   font-size: 18px;
 }
 
@@ -74,17 +75,24 @@ a:visited {
 }
 
 .button svg {
-  height: 10vw;
-  width: 10vw;
-  max-width: 32px;
-  max-height: 32px;
+  width: 32px;
+  height: 32px;
   margin: 0 10px;
   vertical-align: middle;
 }
 
-.button:hover path {
+.homepage.button:hover path {
+  fill: #e49c17;
+}
+
+.github.button:hover path {
   fill: #e41765;
 }
+
+.twitter.button:hover path {
+  fill: #17a3e4;
+}
+
 
 /*Gallery section*/
 #gallery {
@@ -135,9 +143,9 @@ a:visited {
 .art__desc {
   opacity: 0;
   position: absolute;
-  padding: 0.25rem 1rem;
+  padding: 0 1rem;
   background-color: var(--dark);
-  bottom: -20px;
+  bottom: -10px;
   transform: translateY(20px);
   transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
   z-index: 1;
@@ -145,12 +153,10 @@ a:visited {
 
 
 .art__title {
-  font-family: 'Noto Serif', serif;
   font-style: italic;
   color: var(--light);
   font-size: 16px;
   text-transform:initial;
-  letter-spacing: 0.05rem;
   margin: 0.5rem 0;
 }
 
@@ -171,6 +177,19 @@ hr {
   border: 1px solid var(--light);
   width: 50%;
   margin: 0;
+}
+
+.header-hr {
+  border: 1px solid var(--dark);
+  width: 100%;
+  margin: 10px 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: expand 0.25s ease-out forwards;
+}
+
+@keyframes expand {
+  from { transform: scaleX(0); } to { transform: none; }
 }
 
 .art-modal {
@@ -210,10 +229,24 @@ hr {
   display: none;
 }
 
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important;
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important;
+  height: 1px !important;
+  overflow: hidden !important;
+  margin: -1px !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 1200px) {
   h1 {
-    font-size: 5em;
+    font-size: 3em;
   }
 
   #gallery {
