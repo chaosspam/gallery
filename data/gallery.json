@@ -1,231 +1,231 @@
 [
     {
-        "size": "galleryFull",
-        "path": "20211227_Fleur.png",
+        "size": "1",
+        "path": "20220103_Fumyo",
+        "name": "Fudo Myoo",
+        "date": "January 3, 2022",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "3",
+        "path": "20211227_Fleur",
         "name": "Winter Fleur",
         "date": "December 27, 2021",
         "width": 3640,
         "height": 2048
     },
     {
-        "size": "galleryHalf",
-        "path": "20211108_Fleur.png",
+        "size": "1",
+        "path": "20211108_Fleur",
         "name": "Halloween Fleur",
         "date": "November 8, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210927_Fleur.png",
+        "size": "1",
+        "path": "20210927_Fleur",
         "name": "3rd Anniversary Fleur",
         "date": "September 27, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210802_Luce.png",
+        "size": "1",
+        "path": "20210802_Luce",
         "name": "Luce",
         "date": "August 2, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210720_Fleur.png",
-        "name": "Summer Fleur",
-        "date": "July 20, 2021",
-        "width": 2048,
-        "height": 2048
-    },
-    {
-        "size": "galleryHalf",
-        "path": "20210714_Mitsuhide.png",
+        "size": "1",
+        "path": "20210714_Mitsuhide",
         "name": "Rat Girl Summer",
         "date": "July 16, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryFull",
-        "path": "20210711_Alex.png",
+        "size": "3",
+        "path": "20210711_Alex",
         "name": "Summer Break",
         "date": "July 11, 2021",
         "width": 3640,
         "height": 2048
     },
     {
-        "size": "galleryHalf",
-        "path": "20210703_Mym.png",
+        "size": "1",
+        "path": "20210703_Mym",
         "name": "Midsummer Temptress",
         "date": "July 4, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210627_Sealers.png",
+        "size": "1",
+        "path": "20210627_Sealers",
         "name": "The Sealers",
         "date": "June 27, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210622_Fleur.png",
+        "size": "1",
+        "path": "20210622_Fleur",
         "name": "1000 Days!",
         "date": "June 22, 2021",
         "width": 1536,
         "height": 2048
     },
     {
-        "size": "galleryFull",
-        "path": "20210618_Tobias.png",
+        "size": "3",
+        "path": "20210618_Tobias",
         "name": "Leave Your Back to Me",
         "date": "June 18, 2021",
         "width": 3640,
         "height": 2048
     },
     {
-        "size": "galleryHalf",
-        "path": "20210612_Nino.png",
+        "size": "1",
+        "path": "20210612_Nino",
         "name": "Pyroblossoms",
         "date": "June 12, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210609_Isaac.png",
+        "size": "1",
+        "path": "20210609_Isaac",
         "name": "Guardsman of the Vendure",
         "date": "June 9, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210605_Fleur.png",
+        "size": "1",
+        "path": "20210605_Fleur",
         "name": "Seaside 🍉",
         "date": "June 5, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210531_Sarisse.png",
+        "size": "1",
+        "path": "20210531_Sarisse",
         "name": "Sylvan Sharpshooter",
         "date": "May 31, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryFull",
-        "path": "20210527_Apostles.png",
+        "size": "3",
+        "path": "20210527_Apostles",
         "name": "The Apostles of the Illian Church",
         "date": "May 27, 2021",
         "width": 3640,
         "height": 2048
     },
     {
-        "size": "galleryHalf",
-        "path": "20210527_Mascula.png",
+        "size": "1",
+        "path": "20210527_Mascula",
         "name": "Pure Hearted Android",
         "date": "May 27, 2021",
         "width": 1536,
         "height": 2730
     },
     {
-        "size": "galleryHalf",
-        "path": "20210523_Pinon.png",
+        "size": "1",
+        "path": "20210523_Pinon",
         "name": "The Wing of Purity",
         "date": "May 23, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210521_SpringFleur.png",
+        "size": "1",
+        "path": "20210521_SpringFleur",
         "name": "Spring Artist",
         "date": "May 21, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryFull",
-        "path": "20210517_Saiga.png",
-        "name": "Sinful Marksman",
-        "date": "May 17, 2021",
-        "width": 3640,
-        "height": 2048
-    },
-    {
-        "size": "galleryFull",
-        "path": "20210514_SummerFleur.png",
-        "name": "Summer Artist",
-        "date": "May 14, 2021",
-        "width": 3640,
-        "height": 2048
-    },
-    {
-        "size": "galleryFull",
-        "path": "20210511_Yachiyo.png",
-        "name": "Resplendent Duelist",
-        "date": "May 11, 2021",
-        "width": 3640,
-        "height": 2048
-    },
-    {
-        "size": "galleryHalf",
-        "path": "20210509_MaidFleur.png",
+        "size": "1",
+        "path": "20210509_MaidFleur",
         "name": "Maid Artist",
         "date": "May 9, 2021",
         "width": 2048,
         "height": 3640
     },
     {
-        "size": "galleryHalf",
-        "path": "20210508_Melody.png",
+        "size": "3",
+        "path": "20210517_Saiga",
+        "name": "Sinful Marksman",
+        "date": "May 17, 2021",
+        "width": 3640,
+        "height": 2048
+    },
+    {
+        "size": "2",
+        "path": "20210514_SummerFleur",
+        "name": "Summer Artist",
+        "date": "May 14, 2021",
+        "width": 3640,
+        "height": 2048
+    },
+    {
+        "size": "2",
+        "path": "20210511_Yachiyo",
+        "name": "Resplendent Duelist",
+        "date": "May 11, 2021",
+        "width": 3640,
+        "height": 2048
+    },
+    {
+        "size": "1",
+        "path": "20210508_Melody",
         "name": "Lovestruck Maid",
         "date": "May 8, 2021",
         "width": 1536,
         "height": 2048
     },
     {
-        "size": "galleryHalf",
-        "path": "20210502_Vania.png",
+        "size": "1",
+        "path": "20210502_Vania",
         "name": "Vampire Princess",
         "date": "May 2, 2021",
         "width": 1152,
         "height": 2048
     },
     {
-        "size": "galleryHalf",
-        "path": "20210501_Grimnir.png",
+        "size": "1",
+        "path": "20210501_Grimnir",
         "name": "The Mad Cyclone",
         "date": "May 1, 2021",
         "width": 1152,
         "height": 2048
     },
     {
-        "size": "galleryHalf",
-        "path": "20210424_Fleur.png",
+        "size": "2",
+        "path": "20210424_Fleur",
         "name": "Budding Artist",
         "date": "April 24, 2021",
         "width": 2048,
         "height": 1536
     },
     {
-        "size": "galleryFull",
-        "path": "20210420_DragonDate.png",
+        "size": "2",
+        "path": "20210420_DragonDate",
         "name": "Date with a Dragon",
         "date": "April 20, 2021",
         "width": 2048,
         "height": 1536
     },
     {
-        "size": "galleryFull",
-        "path": "20210414_Mercury.png",
+        "size": "1",
+        "path": "20210414_Mercury",
         "name": "Teacher of the Tides",
         "date": "April 14, 2021",
         "width": 1536,
