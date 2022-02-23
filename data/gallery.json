@@ -1,5 +1,14 @@
 [
     {
+        "size": "3",
+        "path": "20220223_Eunie",
+        "album": [ "20220223_Eunie", "20220223_Eunie_alt" ],
+        "name": "Eunie",
+        "date": "February 23, 2022",
+        "width": 3640,
+        "height": 2048
+    },
+    {
         "size": "1",
         "path": "20220103_Fumyo",
         "name": "Fudo Myoo",
