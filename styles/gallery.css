@@ -71,7 +71,10 @@ button {
   display: flex;
   align-items: center;
   margin: 1.5rem 0 1.5rem -10px;
+
   font-size: 18px;
+  font-family: "Menlo", "Monaco", "Consolas", "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
+  color: #434343;
 }
 
 .button {
@@ -83,15 +86,15 @@ button {
   width: 32px;
   height: 32px;
   margin: 0 10px;
-  vertical-align: middle;
+  vertical-align: baseline;
 }
 
 .homepage.button:hover path {
-  fill: #e49c17;
+  fill: #e41765;
 }
 
 .github.button:hover path {
-  fill: #e41765;
+  fill: #e49c17;
 }
 
 .twitter.button:hover path {
@@ -213,6 +216,10 @@ hr {
 .art-modal__img {
   display: block;
   margin: 0 auto;
+}
+
+.art-modal__img.loading {
+  display: none;
 }
 
 .art-modal__desc {

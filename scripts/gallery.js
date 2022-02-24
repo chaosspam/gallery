@@ -15,6 +15,8 @@
     requestImages();
     modal.addEventListener('mousemove', handleModalHover);
     modal.addEventListener('click', handleModalClick);
+    qs('.art-modal img').addEventListener('load', e => e.currentTarget.classList.remove('loading'));
+    qs('.art-modal img').addEventListener('error', e => e.currentTarget.classList.remove('loading'));
   }
 
   function requestImages() {
@@ -115,16 +117,16 @@
     const img = modal.querySelector('img');
     img.alt = art.name;
 
-    if(art.album) {
+    if (art.album) {
       albumIndex = 0;
       currentAlbum = art.album;
       qs('.album-counter').classList.remove('hidden');
-      img.src = `images/art/${art.album[albumIndex]}.png`;
+      loadModalImage(`images/art/${art.album[albumIndex]}.png`);
 
     } else {
       currentAlbum = null;
       qs('.album-counter').classList.add('hidden');
-      img.src = `images/art/${art.path}.png`;
+      loadModalImage(`images/art/${art.path}.png`);
     }
 
     const modalDesc = qs('.art-modal__desc');
@@ -139,38 +141,42 @@
   }
 
   function prevAlbumImg() {
-    if(!currentAlbum) {
+    if (!currentAlbum) {
       closeModal();
       return;
     }
 
     albumIndex--;
-    if(albumIndex < 0) { albumIndex = currentAlbum.length - 1; }
+    if (albumIndex < 0) { albumIndex = currentAlbum.length - 1; }
     id('albumCount').textContent = `${albumIndex + 1} / ${currentAlbum.length}`;
-    const img = qs('.art-modal img');
-    img.src = `images/art/${currentAlbum[albumIndex]}.png`;
+    loadModalImage(`images/art/${currentAlbum[albumIndex]}.png`);
   }
 
   function nextAlbumImg() {
-    if(!currentAlbum) {
+    if (!currentAlbum) {
       closeModal();
       return;
     }
 
     albumIndex++;
-    if(albumIndex > currentAlbum.length - 1) { albumIndex = 0; }
+    if (albumIndex > currentAlbum.length - 1) { albumIndex = 0; }
     id('albumCount').textContent = `${albumIndex + 1} / ${currentAlbum.length}`;
+    loadModalImage(`images/art/${currentAlbum[albumIndex]}.png`);
+  }
+
+  function loadModalImage(path) {
     const img = qs('.art-modal img');
-    img.src = `images/art/${currentAlbum[albumIndex]}.png`;
+    img.classList.add('loading');
+    img.src = path;
   }
 
   const ALBUM_HOVER_RATIO = 0.2;
 
   function handleModalHover(e) {
-    if(currentAlbum === null) { return; }
+    if (currentAlbum === null) { return; }
 
     const height = window.innerHeight * ALBUM_HOVER_RATIO;
-    if(e.clientY < height) {
+    if (e.clientY < height) {
       id('prevBtn').classList.add('active');
       id('nextBtn').classList.remove('active');
     } else if (e.clientY < window.innerHeight - height) {
@@ -183,11 +189,11 @@
   }
 
   function handleModalClick(e) {
-    if(currentAlbum === null) { return closeModal(); }
+    if (currentAlbum === null) { return closeModal(); }
 
     const height = window.innerHeight * ALBUM_HOVER_RATIO;
     this.scrollTop = 0;
-    if(e.clientY < height) {
+    if (e.clientY < height) {
       prevAlbumImg();
     } else if (e.clientY < window.innerHeight - height) {
       closeModal();
