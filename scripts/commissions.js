@@ -7,7 +7,7 @@
   window.addEventListener('load', init);
 
   function init() {
-    fetch('data/commissions.json')
+    fetch('../data/commissions.json')
       .then(checkStatus)
       .then(res => res.json())
       .then(populateSlots)
