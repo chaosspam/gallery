@@ -1,0 +1,156 @@
+h2, h3, h4 {
+  margin: 0;
+}
+
+summary {
+  cursor: pointer;
+}
+
+.terms {
+  margin: 10px 0;
+  border: 1px solid var(--dark);
+}
+
+.terms__summary {
+  padding: 10px;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+.terms__summary__wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.terms__summary svg {
+  width: 10px;
+  margin-right: 10px;
+  fill: var(--light);
+}
+
+.terms__content {
+  padding: 10px;
+  padding-left: 2rem;
+}
+
+.comm-types {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.comm-type {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.examples {
+  max-width: 500px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.examples li {
+  flex: 1 1 300px;
+
+}
+
+.examples__img {
+  display: block;
+  max-width: 100%;
+}
+
+.comm-type__desc {
+  width: max-content;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  padding: 2rem;
+  border: 2px solid var(--dark);
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-sizing: border-box;
+  flex: 1 1 350px;
+  padding: 2rem;
+  border: 2px solid var(--dark);
+}
+
+#slots {
+  list-style-type: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  padding: 0;
+}
+
+.slot {
+  position: relative;
+
+  width: 96px;
+  height: 96px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: gray;
+  text-transform: capitalize;
+
+  border: 2px dashed gray;
+}
+
+.slot:not(.open)::after {
+  content: '🔍︎';
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+}
+
+.slot:hover .art__desc {
+  opacity: 1;
+  transform: none;
+}
+
+.art__desc {
+  width: max-content;
+  pointer-events: none;
+  bottom: 120%;
+}
+
+.slot.done {
+  background-color: var(--dark);
+  color: var(--light);
+  border: 2px solid var(--dark);
+
+  cursor: pointer;
+}
+
+.slot.drawing {
+  color: var(--dark);
+  border: 2px solid var(--dark);
+
+  cursor: pointer;
+}
+
+.slot.waiting {
+  border-style: solid;
+
+  cursor: pointer;
+}

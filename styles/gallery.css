@@ -19,6 +19,7 @@ body {
   padding: 0 1.5rem;
   background-color: var(--light);
   font-family: 'Noto Serif', serif;
+  line-height: 2;
   color: var(--dark);
 }
 
@@ -69,7 +70,6 @@ button {
 /*Button links*/
 .button-container {
   display: flex;
-  align-items: center;
   margin: 1.5rem 0 1.5rem -10px;
 
   font-size: 18px;
@@ -103,10 +103,14 @@ button {
 
 
 /*Gallery section*/
-#gallery {
-  display: grid;
+
+.container {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+#gallery {
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1rem;
   grid-auto-flow: dense;
@@ -136,6 +140,8 @@ button {
 }
 
 .art {
+  display: block;
+
   width: 100%;
   height: auto;
   transition: box-shadow 0.1s ease-out;
