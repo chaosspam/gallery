@@ -1,6 +1,6 @@
 [
   {
-    "status": "drawing",
+    "status": "done",
     "info": {
       "commissioner": "@austin99099",
       "type": "Bust",
@@ -8,7 +8,12 @@
     }
   },
   {
-    "status": "open"
+    "status": "drawing",
+    "info": {
+      "commissioner": "@dhelmise",
+      "type": "Waist Up",
+      "date": "March 11, 2022"
+    }
   },
   {
     "status": "open"
