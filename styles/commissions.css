@@ -154,3 +154,26 @@ summary {
 
   cursor: pointer;
 }
+
+a.form-btn {
+  display: block;
+  color: var(--dark);
+  border: 2px solid var(--dark);
+  background-color: var(--light);
+  box-shadow: 0 5px 0 0 var(--dark);
+
+  text-align: center;
+  margin: 1rem 0;
+  padding: 0.5rem 0.75rem;
+  font-size: 1.25rem;
+
+  transition: all 0.2s;
+
+  cursor: pointer;
+}
+
+a.form-btn:hover {
+  color: var(--light);
+  border: 2px solid var(--dark);
+  background-color: var(--dark);
+}
