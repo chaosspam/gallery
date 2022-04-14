@@ -16,10 +16,20 @@
     }
   },
   {
-    "status": "open"
+    "status": "done",
+    "info": {
+      "commissioner": "Anon",
+      "type": "Waist Up + Background",
+      "date": "April 10, 2022"
+    }
   },
   {
-    "status": "open"
+    "status": "drawing",
+    "info": {
+      "commissioner": "@RazorLeafeon",
+      "type": "Waist Up",
+      "date": "April 14, 2022"
+    }
   },
   {
     "status": "open"

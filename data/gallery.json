@@ -1,6 +1,38 @@
 [
     {
+        "size": "1",
+        "path": "20220413_Sue",
+        "name": "🪴",
+        "date": "March 24, 2022",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "1",
+        "path": "20220413_ManhattanCafe",
+        "name": "Manhattan Cafe",
+        "date": "April 13, 2022",
+        "width": 2048,
+        "height": 2730
+    },
+    {
+        "size": "1",
+        "path": "20220406_Annelie",
+        "name": "Annelie",
+        "date": "April 6, 2022",
+        "width": 2048,
+        "height": 2730
+    },
+    {
         "size": "2",
+        "path": "20220401_HuntOfHarmony",
+        "name": "Hunt of Harmony 3rd Anni",
+        "date": "March 31, 2022",
+        "width": 2048,
+        "height": 2048
+    },
+    {
+        "size": "1",
         "path": "20220324_Shiori",
         "name": "Shiorin",
         "date": "March 24, 2022",
@@ -8,7 +40,7 @@
         "height": 2730
     },
     {
-        "size": "2",
+        "size": "1",
         "path": "20220320_Melsa",
         "name": "Melsa",
         "date": "March 20, 2022",
