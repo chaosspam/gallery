@@ -155,7 +155,7 @@ summary {
   cursor: pointer;
 }
 
-a.form-btn {
+a.form-btn, .form-btn {
   display: block;
   color: var(--dark);
   border: 2px solid var(--dark);
@@ -172,7 +172,7 @@ a.form-btn {
   cursor: pointer;
 }
 
-a.form-btn:hover {
+a.form-btn:hover, .form-btn {
   color: var(--light);
   border: 2px solid var(--dark);
   background-color: var(--dark);

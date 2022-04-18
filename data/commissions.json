@@ -24,14 +24,19 @@
     }
   },
   {
-    "status": "drawing",
+    "status": "done",
     "info": {
       "commissioner": "@RazorLeafeon",
-      "type": "Waist Up",
+      "type": "Half Body",
       "date": "April 14, 2022"
     }
   },
   {
-    "status": "open"
+    "status": "waiting",
+    "info": {
+      "commissioner": "@sockpersonDL",
+      "type": "Half Body",
+      "date": "April 18, 2022"
+    }
   }
 ]
