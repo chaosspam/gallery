@@ -1,6 +1,30 @@
 [
     {
         "size": "1",
+        "path": "20220421_sockperson_Noelle_Watermarked",
+        "name": "Noelle",
+        "date": "April 21, 2022",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "1",
+        "path": "20220416_NiceNature",
+        "name": "Nice Nature",
+        "date": "April 16, 2022",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "1",
+        "path": "20220415_Leafe_Botan_Watermarked",
+        "name": "Botan",
+        "date": "April 15, 2022",
+        "width": 2048,
+        "height": 2730
+    },
+    {
+        "size": "1",
         "path": "20220413_Sue",
         "name": "🪴",
         "date": "March 24, 2022",

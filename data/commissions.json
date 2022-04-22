@@ -1,42 +1,17 @@
 [
   {
-    "status": "done",
-    "info": {
-      "commissioner": "@austin99099",
-      "type": "Bust",
-      "date": "March 10, 2022"
-    }
+    "status": "open"
   },
   {
-    "status": "done",
-    "info": {
-      "commissioner": "@dhelmise",
-      "type": "Waist Up",
-      "date": "March 11, 2022"
-    }
+    "status": "open"
   },
   {
-    "status": "done",
-    "info": {
-      "commissioner": "Anon",
-      "type": "Waist Up + Background",
-      "date": "April 10, 2022"
-    }
+    "status": "open"
   },
   {
-    "status": "done",
-    "info": {
-      "commissioner": "@RazorLeafeon",
-      "type": "Half Body",
-      "date": "April 14, 2022"
-    }
+    "status": "open"
   },
   {
-    "status": "waiting",
-    "info": {
-      "commissioner": "@sockpersonDL",
-      "type": "Half Body",
-      "date": "April 18, 2022"
-    }
+    "status": "open"
   }
 ]

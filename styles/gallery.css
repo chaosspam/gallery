@@ -73,20 +73,27 @@ button {
   margin: 1.5rem 0 1.5rem -10px;
 
   font-size: 18px;
-  font-family: "Menlo", "Monaco", "Consolas", "Andale Mono", "Ubuntu Mono", "Courier New", monospace;
-  color: #434343;
+  font-family: 'Noto Serif', serif;
+  color: var(--dark);
 }
 
 .button {
   border-radius: 2px;
   display: inline-block;
+  margin: 0 10px;
+  color: var(--dark);
+  white-space: nowrap;
+}
+
+.button:visited {
+  color: var(--dark);
 }
 
 .button svg {
   width: 32px;
   height: 32px;
-  margin: 0 10px;
-  vertical-align: baseline;
+  vertical-align: middle;
+  margin-right: 5px;
 }
 
 .homepage.button:hover path {
@@ -101,6 +108,37 @@ button {
   fill: #17a3e4;
 }
 
+.commissions {
+  vertical-align: baseline;
+}
+
+.commissions.button:hover path {
+  fill: #20b953;
+}
+
+.link-desc {
+  font-family: 'Segoe UI', Tahoma, Verdana, Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 0.75rem;
+  display: inline-block;
+}
+
+.button:hover .link-desc::after {
+  width: 100%;
+}
+
+.button .link-desc::after {
+  background-color: var(--dark);
+  content: "";
+  display: block;
+  height: 2px;
+  margin-top: 1px;
+  transition: width .15s ease-out;
+  width: 0;
+}
+
 
 /*Gallery section*/
 
@@ -112,9 +150,10 @@ button {
 #gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: masonry;
   grid-gap: 1rem;
   grid-auto-flow: dense;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .gallery__art {
@@ -345,6 +384,21 @@ hr {
   .art-size--3 {
     grid-column-start: span 1;
   }
+
+  .link-desc {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    overflow: hidden !important;
+    margin: -1px !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+  }
+
 }
 
 /* noto-serif-regular - latin */
