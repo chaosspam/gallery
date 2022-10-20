@@ -2,19 +2,26 @@
   {
     "status": "done",
     "info": {
-      "commissioner": "The G",
-      "type": "Pixel Art (160x320)",
-      "date": "April 24, 2022"
+      "commissioner": "aus",
+      "type": "Full Body",
+      "date": "October 7, 2022"
     }
   },
   {
-    "status": "open"
+    "status": "drawing",
+    "info": {
+      "commissioner": "Anon",
+      "type": "Half Body",
+      "date": "October 15, 2022"
+    }
   },
   {
-    "status": "open"
-  },
-  {
-    "status": "open"
+    "status": "waiting",
+    "info": {
+      "commissioner": "Leafe",
+      "type": "Fullbody",
+      "date": "October 20, 2022"
+    }
   },
   {
     "status": "open"
