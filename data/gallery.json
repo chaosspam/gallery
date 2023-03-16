@@ -1,6 +1,94 @@
 [
     {
         "size": "3",
+        "path": "20230309_Miku",
+        "name": "Miku",
+        "date": "March 9, 2023",
+        "width": 3640,
+        "height": 2048
+    },
+    {
+        "size": "1",
+        "path": "20230302_Kohane",
+        "name": "Kohane",
+        "date": "March 2, 2023",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "1",
+        "path": "20230214_Francesca",
+        "name": "Francesca",
+        "date": "Februrary 14, 2023",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "3",
+        "path": "20230127_KimonoFleur",
+        "name": "Kimono Fleur",
+        "date": "January 27, 2023",
+        "width": 3640,
+        "height": 2048
+    },
+    {
+        "size": "1",
+        "path": "20221225_Botan_Watermarked",
+        "name": "Botan",
+        "date": "December 25, 2022",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "1",
+        "path": "20221213_WinterFleur",
+        "name": "Winter Fleur",
+        "date": "December 13, 2022",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "1",
+        "path": "20221206_Rita",
+        "name": "Rita",
+        "date": "December 6, 2022",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "1",
+        "path": "20221201_Iono",
+        "name": "Iono",
+        "date": "December 1, 2022",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "1",
+        "path": "20221112_Alice",
+        "name": "Alice",
+        "date": "November 12, 2022",
+        "width": 2048,
+        "height": 3640
+    },
+    {
+        "size": "1",
+        "path": "20221103_Sarisse_Noodle",
+        "name": "Sarrise",
+        "date": "November 3, 2022",
+        "width": 2048,
+        "height": 2730
+    },
+    {
+        "size": "1",
+        "path": "20221029_Shar_Sharena",
+        "name": "Sharena Poster",
+        "date": "October 29, 2022",
+        "width": 2048,
+        "height": 2730
+    },
+    {
+        "size": "3",
         "path": "20221026_Leafe_Sharena_Text",
         "name": "Sharena",
         "date": "October 26, 2022",

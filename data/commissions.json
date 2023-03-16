@@ -1,27 +1,12 @@
 [
   {
-    "status": "done",
-    "info": {
-      "commissioner": "aus",
-      "type": "Full Body",
-      "date": "October 7, 2022"
-    }
+    "status": "open"
   },
   {
-    "status": "done",
-    "info": {
-      "commissioner": "Anon",
-      "type": "Half Body",
-      "date": "October 15, 2022"
-    }
+    "status": "open"
   },
   {
-    "status": "done",
-    "info": {
-      "commissioner": "Leafe",
-      "type": "Fullbody",
-      "date": "October 20, 2022"
-    }
+    "status": "open"
   },
   {
     "status": "open"

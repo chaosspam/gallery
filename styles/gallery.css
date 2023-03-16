@@ -51,10 +51,6 @@ footer p {
 }
 
 /*Normal links*/
-a {
-  text-decoration: none;
-}
-
 a:link {
   color: #82b4ff;
 }
@@ -78,6 +74,7 @@ button {
 }
 
 .button {
+  text-decoration: none;
   border-radius: 2px;
   display: inline-block;
   margin: 0 10px;
