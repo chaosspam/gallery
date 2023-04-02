@@ -4,14 +4,18 @@
   const qsa = document.querySelectorAll.bind(document);
   const gen = document.createElement.bind(document);
 
+  const DATA_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR9CD06wlZv22oEuWESW7QneZLRMqknt5NEXnmF7UKhXikuS-hc6KSyAiSIgR0OoGz5lnSIWFTk6AwS/pub?output=csv'
+
   window.addEventListener('load', init);
 
   function init() {
-    fetch('../data/commissions.json')
-      .then(checkStatus)
-      .then(res => res.json())
-      .then(populateSlots)
-      .catch(console.error);
+    fetch(DATA_URL)
+    .then(checkStatus)
+    .then(res => res.text())
+    .then(text => Papa.parse(text, {header: true}))
+    .then(formatData)
+    .then(populateSlots)
+    .catch(console.error);
   }
 
   function populateSlots(data) {
@@ -19,6 +23,22 @@
     data.forEach(slot => {
       container.appendChild(generateSlot(slot));
     });
+  }
+
+  function formatData(parsed) {
+    return parsed.data.map(item => {
+      let res = {
+        status: item.status,
+      }
+      if(item.commissioner && item.type && item.date) {
+        res.info = {
+          commissioner: item.commissioner,
+          type: item.type,
+          data: item.date
+        }
+      }
+      return res;
+  })
   }
 
   function generateSlot(slot) {
